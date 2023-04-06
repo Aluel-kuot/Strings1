@@ -1,0 +1,25 @@
+//strings methods and functions
+let b="happy birthday my little one"
+console.log(b.length)
+console.log(b.toUpperCase())
+console.log(b.toLowerCase())
+console.log(b.slice(0,5))
+console.log(b.split())
+console.log(b.repeat(2))
+console.log(b.substring(0,5))
+console.log(b.search("p"))
+console.log(b.startsWith("h"))
+console.log(b.endsWith("one"))
+console.log(b.indexOf("p"))
+console.log(b.lastIndexOf("p"))
+console.log(b.trim("",""))
+let a="high"
+let c="school"
+let d=a.concat(c)
+console.log(d)
+console.log(b.match(/p/g))
+console.log(b.match(/p/g).length)
+console.log(b.replace("happy","good"))
+console.log(b.replaceAll("good","life"))
+console.log(b.includes("little"))
+console.log(b.charAt())
